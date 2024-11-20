@@ -1,5 +1,5 @@
 # Calculator_TS
-
+'
 A simple and efficient calculator built using **TypeScript** and **HTML/CSS**. This project demonstrates how to create a functional calculator with a clean and user-friendly interface while leveraging TypeScript for enhanced code quality and maintainability.
 
 ## Features
