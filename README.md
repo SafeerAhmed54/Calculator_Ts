@@ -1,5 +1,5 @@
 
-# Arithmetic Operations Console Application
+# Calculator Console Application
 
 ## Description
 
