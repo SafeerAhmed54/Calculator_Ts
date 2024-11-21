@@ -1,36 +1,79 @@
-# Calculator_TS
-'
-A simple and efficient calculator built using **TypeScript** and **HTML/CSS**. This project demonstrates how to create a functional calculator with a clean and user-friendly interface while leveraging TypeScript for enhanced code quality and maintainability.
+
+# Arithmetic Operations Console Application
+
+## Description
+
+This application performs basic arithmetic operations (Addition, Subtraction, Multiplication, Division) on two numbers provided by the user through a command-line interface. The user inputs two numbers and selects an operator to calculate the result.
 
 ## Features
 
-- Perform basic arithmetic operations:  
-  Addition, Subtraction, Multiplication, and Division.  
-- Clear and reset functionality.  
-- Responsive design for better usability across devices.  
-- Well-structured TypeScript code for ease of understanding and scalability.
+- **Addition**: Adds two numbers and displays the result.
+- **Subtraction**: Subtracts the second number from the first and displays the result.
+- **Multiplication**: Multiplies two numbers and displays the result.
+- **Division**: Divides the first number by the second and displays the result. Includes validation to prevent division by zero.
 
-## Technologies Used
+## Requirements
 
-- **TypeScript**: Ensures type safety and improves code quality.
-- **HTML5**: Provides the structure of the calculator.
-- **CSS3**: Adds styling and responsive design.
-- **Git**: For version control.
+- Node.js
+- Inquirer package (Install using `npm install inquirer`)
 
-## Getting Started
+## Installation
 
-Follow these instructions to get a copy of the project up and running on your local machine.
+1. Clone the repository or download the code to your local machine.
+2. Navigate to the project folder in the terminal.
+3. Install the required dependencies:
 
-### Prerequisites
-
-Ensure you have the following installed:
-
-- **Node.js** (to compile TypeScript)
-- A modern web browser (e.g., Chrome, Firefox)
-
-### Installation
-
-1. **Clone the repository**:
    ```bash
-   git clone https://github.com/SafeerAhmed54/Calculator_Ts.git
-   cd Calculator_Ts
+   npm install
+   ```
+
+4. Run the application:
+
+   ```bash
+   node index.js
+   ```
+
+## Usage
+
+1. When you run the application, you will be prompted to:
+   - Enter the first number.
+   - Enter the second number.
+   - Select an operator (Addition, Subtraction, Multiplication, Division).
+
+2. Based on the selected operator, the application will calculate and display the result.
+
+3. If Division is selected and the second number is 0, the application will display an error message.
+
+### Sample Interaction:
+
+```text
+Enter the First Number: 10
+Enter the Second Number: 5
+Select one of the Operators to perform an action:
+- Addition
+- Subtraction
+- Multiplication
+- Division
+
+You have selected: Addition
+The Addition of 10 + 5 =  15
+```
+
+### Division Example:
+
+```text
+Enter the First Number: 10
+Enter the Second Number: 0
+Select one of the Operators to perform an action:
+- Addition
+- Subtraction
+- Multiplication
+- Division
+
+You have selected: Division
+Division by zero is not allowed.
+```
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
